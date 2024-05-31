@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/desktopBG.png);
+    margin: 20px;
+}
+
+.box {
+    min-width: 600px;
+    min-height: 300px;
+    background-color: #d4a483;
+    color: #3e5e47;
+    text-align: center;
+    font-family: "Grenze Gotisch";
+    src: url("/fonts/GrenzeGotisch-Bold.ttf") format("ttf");
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.box-button {
+    background-color: #3e5e47;
+    color: #d4a483;
+    font-size: 40px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Grenze Gotisch";
+}
+
+.box-button:hover {
+    background-color: #2c4435;
+}
+
+.content {
+    text-align: center;
+    margin: 0
+}
+
+.content p {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.content img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image1 {
+    padding: 7px;
+}
+
+.image2 {
+    padding: 7px;
+}
+
+.image3 {
+    padding: 7px;
+}
+
+.image9 {
+    padding: 7px;
+}

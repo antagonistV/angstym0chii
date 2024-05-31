@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Grenze Gotisch";
+    src: url("/fonts/GrenzeGotisch-Bold.ttf") format("ttf");
+    font-size: 50px;
+    text-align: center;
+    color:#d4a483;
+    background: url(../images/desktopBG.png);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
