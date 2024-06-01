@@ -16,7 +16,7 @@ body {
     color: #3e5e47;
     text-align: center;
     font-family: "Grenze Gotisch";
-    src: url("fonts/GrenzeGotisch-Bold.ttf") format("ttf");
+    src: url("https://fonts.cdnfonts.com/css/grenze-gotisch-2") format("ttf");
     padding: 40px;
     border-radius: 15px;
     font-size: 20px;
